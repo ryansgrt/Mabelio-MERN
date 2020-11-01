@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server" : "nodemon backend/server",
-    "client" : "npm start --prefix frontend",
-    "dev" : "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d"
   },
@@ -15,5 +15,8 @@
     "npm"
   ],
   "author": "Riyan Sugiarto",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.10.11"
+  }
 }
