@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808a863c-f799-40b3-8b8a-91e8ae953f71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/data/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/OrderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/OrderController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/ProductController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ProductController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/Product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middleware/AuthMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/AuthMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middleware/ErrorMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/ErrorMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/OrderModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/OrderModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/ProductModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/ProductModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/UserModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/UserModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/OrderRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/OrderRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/ProductRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/ProductRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/UploadRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/UploadRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/UserRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/UserRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/seeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/seeder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/GenerateToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/GenerateToken.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604225444004</updated>
       <workItem from="1604225445094" duration="18527000" />
-      <workItem from="1604296008961" duration="15037000" />
+      <workItem from="1604296008961" duration="15996000" />
     </task>
     <servers />
   </component>
@@ -109,22 +107,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="760" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1604258960130" />
-    <state width="639" height="193" key="GridCell.Tab.0.bottom" timestamp="1604307163226">
+    <state width="639" height="193" key="GridCell.Tab.0.bottom" timestamp="1604333690249">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="193" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604307163226" />
-    <state width="639" height="193" key="GridCell.Tab.0.center" timestamp="1604307163226">
+    <state width="639" height="193" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604333690249" />
+    <state width="639" height="193" key="GridCell.Tab.0.center" timestamp="1604333690248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="193" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604307163226" />
-    <state width="639" height="193" key="GridCell.Tab.0.left" timestamp="1604307163225">
+    <state width="639" height="193" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604333690248" />
+    <state width="639" height="193" key="GridCell.Tab.0.left" timestamp="1604333690246">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="193" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604307163225" />
-    <state width="639" height="193" key="GridCell.Tab.0.right" timestamp="1604307163226">
+    <state width="639" height="193" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604333690246" />
+    <state width="639" height="193" key="GridCell.Tab.0.right" timestamp="1604333690248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="193" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604307163226" />
+    <state width="639" height="193" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604333690248" />
     <state x="679" y="171" width="672" height="677" key="run.anything.popup" timestamp="1604329509304">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
