@@ -62,7 +62,7 @@ const createProduct = asyncHandler(async (req, res, next) => {
 })
 
 
-const updateProdust = asyncHandler(async (req, res, next) => {
+const updateProduct = asyncHandler(async (req, res, next) => {
     const {
         name,
         price,
@@ -136,7 +136,7 @@ export {
     getProductById,
     getTopProducts,
     deleteProduct,
-    updateProdust,
+    updateProduct,
     createProduct,
     createProductReview
 }

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808a863c-f799-40b3-8b8a-91e8ae953f71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/middleware/AuthMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middleware/ErrorMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/OrderRouters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/ProductRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/UploadRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/UserRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/ProductController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/ProductController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604225444004</updated>
       <workItem from="1604225445094" duration="18527000" />
-      <workItem from="1604296008961" duration="3190000" />
+      <workItem from="1604296008961" duration="6590000" />
     </task>
     <servers />
   </component>
@@ -54,6 +56,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="618" y="47" key="#Inspections" timestamp="1604300016792">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="618" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1604300016792" />
     <state x="760" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604258960130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
