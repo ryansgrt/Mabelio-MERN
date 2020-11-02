@@ -32,7 +32,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604225444004</updated>
-      <workItem from="1604225445094" duration="14287000" />
+      <workItem from="1604225445094" duration="18527000" />
     </task>
     <servers />
   </component>
@@ -40,10 +40,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604235753979">
+    <state x="760" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604258960130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="760" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1604235753979" />
+    <state x="760" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1604258960130" />
     <state width="659" height="127" key="GridCell.Tab.0.bottom" timestamp="1604238465917">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -60,9 +60,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="659" height="127" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604238465917" />
-    <state x="679" y="171" key="run.anything.popup" timestamp="1604240598180">
+    <state x="679" y="171" width="672" height="677" key="run.anything.popup" timestamp="1604243829965">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="679" y="171" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1604240598180" />
+    <state x="679" y="171" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1604243829965" />
   </component>
 </project>
