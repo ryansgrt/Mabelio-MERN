@@ -2,7 +2,7 @@
   "name": "mabelio-web",
   "version": "1.0.0",
   "description": "mabelio - furniture store",
-  "main": "server.js",
+  "main": "Server.js",
   "type" : "module",
   "scripts": {
     "start": "node backend/server",
