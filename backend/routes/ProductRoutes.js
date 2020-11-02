@@ -5,8 +5,8 @@ import {
     getProduct,
     getProductById,
     getTopProducts, updateProduct
-} from "backend/controllers/ProductController";
-import {protect} from "backend/middleware/AuthMiddleware";
+} from "../controllers/ProductController";
+import {protect} from "../middleware/AuthMiddleware";
 const router = express.Router()
 
 router.route('/').get(getProduct).post(protect,admin,createProduct);

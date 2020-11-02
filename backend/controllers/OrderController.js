@@ -1,5 +1,5 @@
 import asyncHandler from 'express-async-handler';
-import Order from '../model/OrderModel'
+import Order from '../models/OrderModel'
 
 
 //ACCESS TYPE PRIVATE

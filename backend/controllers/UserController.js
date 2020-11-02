@@ -1,6 +1,6 @@
 import asyncHandler from 'express-async-handler'
 import generateToken from "../utils/GenerateToken";
-import User from "../model/UserModel";
+import User from "../models/UserModel";
 
 const authUser = asyncHandler(async (req, res, next) => {
     const {email, password} = req.body;

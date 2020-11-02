@@ -1,5 +1,5 @@
 import express from 'express';
-import {admin, protect} from "backend/middleware/AuthMiddleware";
+import {admin, protect} from "../middleware/AuthMiddleware";
 import {
     addOrderItems,
     getMyOrders,
@@ -7,7 +7,7 @@ import {
     updateOrderToDelivered,
     updateOrderToPaid,
     getOrderById
-} from "backend/controllers/OrderController";
+} from "../controllers/OrderController";
 const router = express.Router();
 
 router.route('/').post(protect, addOrderItems).get(protect, admin,getOrders)
