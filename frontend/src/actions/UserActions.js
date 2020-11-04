@@ -49,12 +49,12 @@ export const login = (email, password) => async (dispatch) => {
             payload: data,
         })
         localStorage.setItem('userInfo', JSON.stringify(data))
-    } catch (err) {
+    } catch (error) {
         dispatch({
             type: USER_LOGIN_FAIL,
-            payload: err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message,
+            payload: error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message,
         })
     }
 }
@@ -101,13 +101,13 @@ export const register = (name, email, password) => async (dispatch) => {
         })
 
         localStorage.setItem('userInfo', JSON.stringify(data))
-    } catch (err) {
+    } catch (error) {
         dispatch({
             type: USER_REGISTER_FAIL,
             payload:
-                err.response && err.response.data.message
-                    ? err.response.data.message
-                    : err.message
+                error.response && error.response.data.message
+                    ? error.response.data.message
+                    : error.message
         })
     }
 }
@@ -134,11 +134,11 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
             type: USER_DETAILS_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(login())
         }
@@ -173,11 +173,11 @@ export const updateUserProfile = (user) => async (dispatch, getState) => {
             payload: data,
         })
         localStorage.setItem('userInfo', JSON.stringify(data))
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -211,11 +211,11 @@ export const ListUsers = () => async (dispatch, getState) => {
             type: USER_LIST_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -245,11 +245,11 @@ export const deleteUser = (id) => async (dispatch, getState) => {
 
         await axios.delete(`/api/users/${id}`, config)
         dispatch({ type: USER_DELETE_SUCCESS })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -281,11 +281,11 @@ export const updateUser =(user) => async (dispatch, getState) => {
         dispatch({type : USER_UPDATE_SUCCESS})
 
         dispatch({type : USER_DETAILS_SUCCESS, payload: data})
-    } catch (err) {
+    } catch (error) {
         const message =
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed'){
             dispatch(logout())
         }
