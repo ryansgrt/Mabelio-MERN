@@ -165,3 +165,5 @@ const ProfileScreen = ({ location, history }) => {
         </Row>
     )
 }
+
+export default ProfileScreen

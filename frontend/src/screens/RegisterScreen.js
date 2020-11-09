@@ -42,7 +42,7 @@ const RegisterScreen = ({ location, history }) => {
             {message && <Message variant='danger'>{message}</Message>}
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
-            <Form onSubmit={submitHeader}>
+            <Form onSubmit={submitHandler}>
                 <Form.Group controlId='name'>
                     <Form.Label>Name</Form.Label>
                     <Form.Control
@@ -71,7 +71,7 @@ const RegisterScreen = ({ location, history }) => {
                         type='password'
                         placeholder='Enter Password'
                         value={password}
-                        onChange={(e) => setName(e.target.value)}
+                        onChange={(e) => setPassword(e.target.value)}
                     >
                     </Form.Control>
                 </Form.Group>
@@ -81,8 +81,8 @@ const RegisterScreen = ({ location, history }) => {
                     <Form.Control
                         type='password'
                         placeholder='Confirm Password'
-                        value={confirmPassword}
-                        onChange={(e) => setName(e.target.value)}
+                        value={passwordConfirm}
+                        onChange={(e) => setPasswordConfirm(e.target.value)}
                     >
                     </Form.Control>
                 </Form.Group>
@@ -103,3 +103,5 @@ const RegisterScreen = ({ location, history }) => {
     )
 
 }
+
+export default RegisterScreen
