@@ -50,11 +50,11 @@ export const createOrder = (order) => async (dispatch, getState) =>{
             payload : data,
         })
         localStorage.removeItem('cartItems')
-    } catch (err) {
+    } catch (error) {
         const message =
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed'){
             dispatch(logout())
         }
@@ -88,11 +88,11 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
             type: ORDER_DETAILS_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -133,11 +133,11 @@ export const payOrder = (orderId, paymentResult) => async (
             type : ORDER_PAY_SUCCESS,
             payload : data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed'){
             dispatch(logout())
         }
@@ -174,11 +174,11 @@ export const deliverOrder = async (order) => async (dispatch, getState)=>{
             type :ORDER_DELIVER_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -210,11 +210,11 @@ export const listMyOrders = () => async(dispatch, getState)=>{
             type : ORDER_LIST_MY_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -247,11 +247,11 @@ export const listOrders = () => async (dispatch, getState) => {
             type: ORDER_LIST_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message = 
-        err.response && err.response.data.message
-        ? err.response.data.message
-        : err.message
+        error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message
         if (message === 'Not authorized, token failed'){
             dispatch(logout())
         }

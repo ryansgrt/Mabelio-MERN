@@ -38,13 +38,13 @@ export const listProducts = (keyword = '', pageNumber = '') => async (
             type: PRODUCT_LIST_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         dispatch({
             type: PRODUCT_LIST_FAIL,
             payload:
-                err.response && err.response.data.message
-                    ? err.response.data.message
-                    : err.response,
+                error.response && error.response.data.message
+                    ? error.response.data.message
+                    : error.response,
         })
     }
 }
@@ -59,13 +59,13 @@ export const listProductDetails = (id) => async (dispatch) => {
             type: PRODUCT_DETAILS_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         dispatch({
             type: PRODUCT_DETAILS_FAIL,
             payload:
-                err.response && err.response.data.message
-                    ? err.response.data.message
-                    : err.response
+                error.response && error.response.data.message
+                    ? error.response.data.message
+                    : error.response
         })
     }
 }
@@ -91,11 +91,11 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
         dispatch({
             type: PRODUCT_DELETE_SUCCESS,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -128,11 +128,11 @@ export const createProduct = () => async (dispatch, getState) => {
             type: PRODUCT_CREATE_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token (failed') {
             dispatch(logout())
         }
@@ -170,11 +170,11 @@ export const updateProduct = (product) => async (dispatch, getState) => {
             type: PRODUCT_UPDATE_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -209,11 +209,11 @@ export const createProductReview = (productId, review) => async (
         dispatch({
             type: PRODUCT_CREATE_REVIEW_SUCCESS,
         })
-    } catch (err) {
+    } catch (error) {
         const message =
-            err.response && err.response.data.message
-                ? err.response.data.message
-                : err.message
+            error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message
         if (message === 'Not authorized, token failed') {
             dispatch(logout())
         }
@@ -235,13 +235,13 @@ export const listTopProducts = () => async (dispatch) => {
             type: PRODUCT_TOP_SUCCESS,
             payload: data,
         })
-    } catch (err) {
+    } catch (error) {
         dispatch({
             type : PRODUCT_TOP_FAIL,
             payload: 
-            err.response && err.response.data.message
-            ? err.response.data.message
-            : err.message,
+            error.response && error.response.data.message
+            ? error.response.data.message
+            : error.message,
         })
     }
 }

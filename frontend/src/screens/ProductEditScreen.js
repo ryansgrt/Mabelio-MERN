@@ -76,7 +76,7 @@ const ProductEditScreen = ({ match, history }) => {
         }
     }
 
-    const submitHendler = (e) =>{
+    const submitHandler = (e) =>{
         e.preventDefault()
         dispatch(
             updateProduct({
@@ -105,7 +105,7 @@ const ProductEditScreen = ({ match, history }) => {
             ): error ?(
                 <Message variant='danger'>{error}</Message>
             ):(
-                <Form onSubmit={submitHeader}>
+                <Form onSubmit={submitHandler}>
                 <Form.Group controlId='name'>
                     <Form.Label>Name</Form.Label>
                     <Form.Control
