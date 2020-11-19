@@ -2,25 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808a863c-f799-40b3-8b8a-91e8ae953f71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/CartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/CartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/OrderActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/OrderActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/ProductActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/ProductActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/UserActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/UserActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CheckoutSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CheckoutSteps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/CartConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/CartConstant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/OrderConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/OrderConstant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/CartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/CartReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/OrderReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/OrderReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/ProductReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/ProductReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/UserReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/UserReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/CartScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/CartScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/PaymentScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/PaymentScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductEditScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ShippingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ShippingScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/UserEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/UserEditScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +96,7 @@
       <updated>1604225444004</updated>
       <workItem from="1604225445094" duration="18527000" />
       <workItem from="1604296008961" duration="15996000" />
+      <workItem from="1605783814637" duration="50000" />
     </task>
     <servers />
   </component>
